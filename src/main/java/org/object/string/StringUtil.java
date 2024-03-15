@@ -4,8 +4,6 @@ import java.util.regex.Pattern;
 
 /**
  * @author yangCHong
- * @date 2024/3/15 14:06
- * @DESCRIPTION
  */
 public class StringUtil {
     /**
@@ -62,26 +60,31 @@ public class StringUtil {
     }
 
     /**
-     * @see #isBlank(CharSequence)
+     * @param cs 参数
+     * @return result
      */
     public static boolean isNotBlank(CharSequence cs) {
         return !isBlank(cs);
     }
 
+    /**
+     * @param cs 参数
+     * @return result
+     */
     public static boolean isEmpty(CharSequence cs) {
         return cs == null || cs.length() == 0;
     }
 
+    /**
+     * @param cs 参数
+     * @return result
+     */
     public static boolean isNotEmpty(CharSequence cs) {
         return !isEmpty(cs);
     }
 
     /**
-     * 判断字符串是不是驼峰命名
-     *
-     * <li> 包含 '_' 不算 </li>
-     * <li> 首字母大写的不算 </li>
-     *
+     * 判断字符串是不是驼峰命名 包含 '_' 不算 首字母大写的不算
      * @param str 字符串
      * @return 结果
      */

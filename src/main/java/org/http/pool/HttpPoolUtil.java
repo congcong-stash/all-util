@@ -19,7 +19,6 @@ import java.security.cert.X509Certificate;
 /**
  * @author yangchong
  * @version 1.0
- * @date 2024/3/13 22:25
  */
 public class HttpPoolUtil {
 

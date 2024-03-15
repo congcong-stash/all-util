@@ -18,7 +18,6 @@ import java.security.NoSuchAlgorithmException;
 /**
  * @author yangchong
  * @version 1.0
- * @date 2024/3/13 23:08
  */
 public class HttpClientUtil {
 

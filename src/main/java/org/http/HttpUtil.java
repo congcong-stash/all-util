@@ -22,7 +22,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author yangchong
  * @version 1.0
- * @date 2024/3/13 23:35
  */
 public class HttpUtil {
 

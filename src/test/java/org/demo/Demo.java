@@ -10,8 +10,6 @@ import java.util.Map;
 
 /**
  * @author yangCHong
- * @date 2024/3/15 9:50
- * @DESCRIPTION
  */
 public class Demo {
     public static void main(String[] args) {

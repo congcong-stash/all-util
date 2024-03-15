@@ -2,8 +2,6 @@ package org.object.array;
 
 /**
  * @author yangCHong
- * @date 2024/3/15 13:33
- * @DESCRIPTION
  */
 public class ArrayUtil {
     public static boolean isBlank(Object[] arrays) {

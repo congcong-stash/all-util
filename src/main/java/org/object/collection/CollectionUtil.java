@@ -6,8 +6,6 @@ import java.util.Map;
 
 /**
  * @author yangCHong
- * @date 2024/3/15 13:51
- * @DESCRIPTION
  */
 public class CollectionUtil {
     public static <T> boolean isBank(Collection<T> collection) {

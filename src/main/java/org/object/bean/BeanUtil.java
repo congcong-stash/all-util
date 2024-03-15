@@ -8,7 +8,6 @@ import java.util.*;
 /**
  * @author yangchong
  * @version 1.0
- * @date 2024/3/13 23:38
  */
 public class BeanUtil {
     private static final Gson GSON = new Gson();
